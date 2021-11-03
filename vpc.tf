@@ -1,6 +1,6 @@
 module "network" {
     source  = "app.terraform.io/priya-gcp-training/network/google"
-    version = "~> 3.0"
+    version = "3.4.0"
 
     project_id   = var.project
     network_name = "gaurav-network"
